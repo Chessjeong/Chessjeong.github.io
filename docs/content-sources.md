@@ -15,7 +15,7 @@ Editorial decisions:
 - The user requested removal of manuscripts under review and the Research Experience section from the website, and removal of the detailed Teaching description.
 - The user supplied the revised biography and Nums AI description, “Co-creator of Causilo, Frontier Tabular Foundation Model.” The incomplete trailing phrase “, and a.” in the supplied biography was treated as a typo and omitted.
 - All five Causilo authors are marked with equal-contribution asterisks at the user's request. The redundant PDF link was removed; the Paper link leads to arXiv.
-- At the user's request, remove biography and project topic tags, use lowercase “founding research scientist,” and append the “Previously” sentence to the research paragraph. The Causilo project subtitle is “Tabular Foundation Model”; its description emphasizes frontier-level predictive performance and fast inference, as described in the technical report.
+- At the user's request, remove biography and project topic tags and append the “Previously” sentence to the research paragraph. Use lowercase “founding research scientist” only in the About Me biography; use “Founding Research Scientist” in the profile, experience, and metadata. The Causilo project subtitle is “Tabular Foundation Model”; its description emphasizes frontier-level predictive performance and fast inference, as described in the technical report.
 - The 2026-01-01 date in the View Space record is a sorting key for its conference year, not an asserted publication day. The rendered website displays only 2026.
 - Omit GPA and programming-language lists from the main page for readability; they remain in the CV.
 - Keep the SK hynix scholarship description as an offer, not a received scholarship.

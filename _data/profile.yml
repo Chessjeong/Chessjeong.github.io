@@ -4,7 +4,7 @@ secondary_name: ""
 navbar_name: "Minho Jeong"
 location: "Seoul, Korea"
 positions:
-  - name: founding research scientist
+  - name: Founding Research Scientist
     institution: Nums AI
     url: https://github.com/nums-ai
   - name: Integrated M.S.–Ph.D. Student
@@ -41,7 +41,7 @@ education:
     url: https://www.kaist.ac.kr/en/
 experience:
   - name: Nums AI
-    position: founding research scientist
+    position: Founding Research Scientist
     detail: Co-creator of Causilo, Frontier Tabular Foundation Model.
     date: Aug. 2026 – Present
     url: https://github.com/nums-ai
