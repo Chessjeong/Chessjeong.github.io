@@ -36,18 +36,17 @@ education:
     url: https://en.snu.ac.kr/
   - name: KAIST
     position: B.S. in Electrical Engineering
-    detail: Cum Laude
+    detail: "GPA: 3.72/4.3, Cum Laude"
     date: Mar. 2022 – Feb. 2026
     url: https://www.kaist.ac.kr/en/
 experience:
   - name: Nums AI
     position: Founding Research Scientist
-    detail: Co-creator of Causilo, Frontier Tabular Foundation Model.
+    detail: Co-creator of Causilo
     date: Aug. 2026 – Present
     url: https://github.com/nums-ai
   - name: SK hynix
     position: Intern
-    detail: DRAM workloads and memory bottlenecks in quantized LLM inference.
     date: Jan. 2025 – Feb. 2025
 teaching:
   - name: Introduction to Data Mining
