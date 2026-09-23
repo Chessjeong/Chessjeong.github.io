@@ -10,13 +10,20 @@ a:hover { color: #153b72; }
 .profile-links { display: flex; flex-direction: column; gap: .4rem; font-size: .85rem; }
 .profile-links i { margin-right: .2rem; }
 .text-profile-bio p:last-child { margin-bottom: 0; }
-.background-grid { row-gap: 2.5rem; }
+.background-grid { row-gap: 2rem; }
 .background-item + .background-item { margin-top: 1.5rem; }
-.background-section h2 { color: #566579; }
+.background-item .small { font-size: .875rem; }
+.section-heading { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: .5rem 1rem; }
+.section-heading-link { font-size: .875rem; white-space: nowrap; }
 .project-subtitle { font-weight: 600; }
 .project-links { display: flex; flex-wrap: wrap; gap: .7rem 1.5rem; font-size: .9rem; }
 .publication-venue { color: var(--accent); font-size: .8rem; font-weight: 700; }
+.publication-item { padding: 1.5rem; }
 .publication-item h3 { line-height: 1.5; }
+.publication-summary { font-size: 1rem; }
+.publication-list .publication-item { padding: 1.5rem 0; }
+.publication-list .publication-item:first-child { padding-top: 0; }
+.publication-list .publication-item:last-child { padding-bottom: 0; }
 .publications-page { max-width: 960px; }
 .manuscript-status { color: #765520; }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }

@@ -1,12 +1,12 @@
-<section id="background" class="card border-0 shadow-sm bg-white mt-3" aria-label="Teaching and honors">
-  <div class="card-body p-4">
+<section id="background" class="card border-0 shadow-sm bg-white mt-3" aria-label="Academic and professional background">
+  <div class="card-body p-4 p-lg-5">
     <div class="row background-grid">
       {% assign supporting_background = site.data.background_sections | where: 'featured', false %}
       {% for category in supporting_background %}
       {% assign items = site.data.profile[category.key] %}
       {% if items.size > 0 %}
-      <div class="col-lg-6 background-section">
-        <h2 class="h6 mb-3">{{ category.title }}</h2>
+      <section id="{{ category.key }}" class="col-lg-6 background-section" aria-labelledby="{{ category.key }}-heading">
+        <h2 class="h4 mb-3" id="{{ category.key }}-heading">{{ category.title }}</h2>
         <ul class="list-unstyled mb-0">
           {% for item in items %}
           <li class="background-item">
@@ -17,7 +17,7 @@
           </li>
           {% endfor %}
         </ul>
-      </div>
+      </section>
       {% endif %}
       {% endfor %}
     </div>

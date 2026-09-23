@@ -1,9 +1,9 @@
 - key: education
   title: Education
-  featured: true
+  featured: false
 - key: experience
   title: Industry Experience
-  featured: true
+  featured: false
 - key: teaching
   title: Teaching
   featured: false

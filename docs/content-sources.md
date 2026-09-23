@@ -11,6 +11,7 @@ Prepared on September 24, 2026. This file is excluded from the generated website
 
 Editorial decisions:
 
+- Following the website review, lead the biography with the research focus and show selected publications and projects before the compact education/experience/teaching/honors grid. Keep one all-publications link in the home section. The Causilo project describes usage and displays the already-confirmed “Co-creator” role; no unverified individual technical contributions or benchmark claims were added.
 - Use the CV's more specific “Integrated M.S.–Ph.D.” degree description rather than the shorter “M.S. Student” on GitHub.
 - The user requested removal of manuscripts under review and the Research Experience section from the website, and removal of the detailed Teaching description.
 - The user supplied the revised biography and the Nums AI description, shortened to “Co-creator of Causilo,” and requested removal of the SK hynix work description. The incomplete trailing phrase “, and a.” in the supplied biography was treated as a typo and omitted.

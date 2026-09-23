@@ -2,10 +2,11 @@
 - name: Causilo
   subtitle: Tabular Foundation Model
   organization: Nums AI
+  role: Co-creator
   description: >-
-    A tabular foundation model delivering frontier-level predictive performance and fast inference
-    for classification and regression. It supports numerical and categorical data through
-    a scikit-learn interface.
+    Use pretrained models for tabular classification and regression through a scikit-learn-compatible
+    interface. Causilo supports numerical and categorical features; the code, model weights,
+    and getting-started guide are linked below.
   links:
     - name: Code
       url: https://github.com/nums-ai/causilo

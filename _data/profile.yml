@@ -18,13 +18,12 @@ github: Chessjeong
 linkedin: minho-jeong-005853240
 short_bio_text_justify: false
 short_bio: >-
+  <p>I build <strong>foundation models for structured data</strong>, particularly tables and graphs,
+  that generalize across datasets and tasks.</p>
   <p>I am a founding research scientist at <a href="https://github.com/nums-ai">Nums AI</a>
   and an integrated M.S.–Ph.D. student in Computer Science and Engineering at
   <a href="https://en.snu.ac.kr/">Seoul National University</a>, advised by
-  <a href="https://jaeminyoo.github.io/">Prof. Jaemin Yoo</a>.</p>
-  <p>My research focuses on <strong>foundation models for structured data</strong>, particularly
-  tables and graphs. I aim to develop general-purpose models that generalize across heterogeneous
-  schemas, structures, datasets, and tasks.
+  <a href="https://jaeminyoo.github.io/">Prof. Jaemin Yoo</a>.
   Previously, I received my B.S. in Electrical Engineering from KAIST.</p>
 portrait_url: /assets/images/photos/minho-github.jpg
 portrait_caption: "Minho Jeong"
