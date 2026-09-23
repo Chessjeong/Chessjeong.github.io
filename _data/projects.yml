@@ -1,11 +1,11 @@
-# Pinned on the user's GitHub profile; description from the project README.
+# Pinned on the user's GitHub profile; description based on the technical report and project README.
 - name: Causilo
-  subtitle: Tabular foundation model
+  subtitle: Tabular Foundation Model
   organization: Nums AI
   description: >-
-    A pretrained foundation model for tabular classification and regression,
-    with a scikit-learn interface for numerical and categorical data.
-  tags: [Tabular learning, Foundation models, Python]
+    A tabular foundation model delivering frontier-level predictive performance and fast inference
+    for classification and regression. It supports numerical and categorical data through
+    a scikit-learn interface.
   links:
     - name: Code
       url: https://github.com/nums-ai/causilo

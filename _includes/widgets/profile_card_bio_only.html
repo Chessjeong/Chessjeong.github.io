@@ -2,8 +2,5 @@
   <div class="card-body p-4 p-lg-5">
     <h2 class="h4 mb-4" id="about-heading">About Me</h2>
     <div class="text-profile-bio" {% if site.data.profile.short_bio_text_justify %}style="text-align: justify;"{% endif %}>{{ site.data.profile.short_bio }}</div>
-    {% if site.data.profile.research_interests.size > 0 %}
-    <div class="research-topics mt-4" aria-label="Research interests">{% for topic in site.data.profile.research_interests %}<span>{{ topic }}</span>{% endfor %}</div>
-    {% endif %}
   </div>
 </section>

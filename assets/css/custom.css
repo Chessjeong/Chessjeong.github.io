@@ -14,8 +14,6 @@ a:hover { color: #153b72; }
 .background-item + .background-item { margin-top: 1.5rem; }
 .background-section h2 { color: #566579; }
 .project-subtitle { font-weight: 600; }
-.project-tags, .research-topics { display: flex; flex-wrap: wrap; gap: .4rem; }
-.project-tags span, .research-topics span { background: #edf2f9; color: #405b7e; padding: .15rem .65rem; border-radius: .3rem; font-size: .75rem; }
 .project-links { display: flex; flex-wrap: wrap; gap: .7rem 1.5rem; font-size: .9rem; }
 .publication-venue { color: var(--accent); font-size: .8rem; font-weight: 700; }
 .publication-item h3 { line-height: 1.5; }
