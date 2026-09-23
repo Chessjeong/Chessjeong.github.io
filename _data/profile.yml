@@ -1,0 +1,78 @@
+# Sources: user-provided CV and https://github.com/Chessjeong
+primary_name: "Minho Jeong"
+secondary_name: ""
+navbar_name: "Minho Jeong"
+location: "Seoul, Korea"
+positions:
+  - name: Founding Research Scientist
+    institution: Nums AI
+    url: https://github.com/nums-ai
+  - name: Integrated M.S.–Ph.D. Student
+    institution: Seoul National University
+    url: https://en.snu.ac.kr/
+email: minho.jeong@nums.world
+academic_email: minho.jeong@snu.ac.kr
+cv_link: /assets/files/minho-jeong-cv.pdf
+gscholar: d0IeCM4AAAAJ
+github: Chessjeong
+linkedin: minho-jeong-005853240
+short_bio_text_justify: false
+short_bio: >-
+  <p>I am an integrated M.S.–Ph.D. student in Computer Science and Engineering at
+  <a href="https://en.snu.ac.kr/">Seoul National University</a>, advised by
+  <a href="https://jaeminyoo.github.io/">Prof. Jaemin Yoo</a>, and a Founding Research Scientist at
+  <a href="https://github.com/nums-ai">Nums AI</a>.</p>
+  <p>My research focuses on <strong>foundation models for structured data</strong>, particularly
+  tables and graphs. I aim to develop general-purpose models that generalize across heterogeneous
+  schemas, structures, datasets, and tasks.</p>
+  <p>Previously, I received my B.S. in Electrical Engineering from KAIST, where I worked as an
+  undergraduate research intern in the Data AI Lab.</p>
+research_interests:
+  - Tabular foundation models
+  - Graph representation learning
+  - In-context learning
+  - Knowledge distillation
+portrait_url: /assets/images/photos/minho-github.jpg
+portrait_caption: "Minho Jeong"
+education:
+  - name: Seoul National University
+    position: Integrated M.S.–Ph.D. in Computer Science and Engineering
+    detail: "Advisor: Prof. Jaemin Yoo"
+    date: Mar. 2026 – Present
+    url: https://en.snu.ac.kr/
+  - name: KAIST
+    position: B.S. in Electrical Engineering
+    detail: Cum Laude
+    date: Mar. 2022 – Feb. 2026
+    url: https://www.kaist.ac.kr/en/
+experience:
+  - name: Nums AI
+    position: Founding Research Scientist
+    detail: Tabular foundation models, synthetic priors, and distributed pretraining.
+    date: Aug. 2026 – Present
+    url: https://github.com/nums-ai
+  - name: SK hynix
+    position: Intern
+    detail: DRAM workloads and memory bottlenecks in quantized LLM inference.
+    date: Jan. 2025 – Feb. 2025
+research:
+  - name: SNU Data AI Lab
+    position: Graduate Researcher
+    detail: Distilling tabular foundation models into efficient neural and tree-based predictors.
+    date: Mar. 2026 – Present
+  - name: KAIST Data AI Lab
+    position: Undergraduate Research Intern
+    detail: Graph Transformers and structure-agnostic graph neural networks.
+    date: Mar. 2025 – Feb. 2026
+teaching:
+  - name: Introduction to Data Mining
+    position: Teaching Assistant · Seoul National University
+    detail: MapReduce, Spark, frequent itemset mining, and locality-sensitive hashing.
+    date: Spring 2026
+awards:
+  - name: KAIST Undergraduate Research Program Grant
+    detail: KRW 5,000,000 in competitively awarded research funding.
+    date: '2025'
+  - name: SK hynix Scholarship Program
+    detail: Received an offer to join the scholarship and employment program.
+    date: '2025'

@@ -1,0 +1,14 @@
+<section id="projects" class="card border-0 shadow-sm bg-white mt-3" aria-labelledby="projects-heading">
+  <div class="card-body p-4 p-lg-5">
+    <h2 class="h4 mb-4" id="projects-heading">Featured Projects</h2>
+    {% for project in site.data.projects %}
+    <article class="project-item {% unless forloop.last %}border-bottom mb-4 pb-4{% endunless %}">
+      <div class="d-flex flex-wrap align-items-baseline mb-2"><h3 class="h5 mr-3 mb-1">{{ project.name }}</h3><span class="small text-muted">{{ project.organization }}</span></div>
+      <p class="project-subtitle mb-2">{{ project.subtitle }}</p>
+      <p class="text-muted">{{ project.description }}</p>
+      <div class="project-tags mb-3" aria-label="Topics">{% for tag in project.tags %}<span>{{ tag }}</span>{% endfor %}</div>
+      <div class="project-links">{% for link in project.links %}<a href="{{ link.url }}"><i class="{{ link.icon }} mr-1" aria-hidden="true"></i> {{ link.name }}</a>{% endfor %}</div>
+    </article>
+    {% endfor %}
+  </div>
+</section>

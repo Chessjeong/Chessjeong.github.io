@@ -1,0 +1,19 @@
+---
+layout: default
+title: Publications
+navbar_title: Publications
+---
+<div class="publications-page mx-auto">
+  <div class="d-flex flex-wrap align-items-baseline justify-content-between mb-4">
+    <h1 class="h3 mb-2">Publications</h1>
+    <a class="small" href="https://scholar.google.com/citations?user={{ site.data.profile.gscholar }}">Google Scholar <span aria-hidden="true">↗</span></a>
+  </div>
+  {% assign pubs_by_year = site.publications | sort: 'date' | reverse | group_by_exp: 'item', "item.date | date: '%Y'" %}
+  {% for year in pubs_by_year %}
+  <h2 class="h5 mb-3">{{ year.name }}</h2>
+  <div class="bg-white shadow-sm rounded-xl mb-4">
+    {% for item in year.items %}{% include widgets/publication_item.html item=item hide_bottom_border=forloop.last %}{% endfor %}
+  </div>
+  {% endfor %}
+  {% include widgets/manuscripts_card.html %}
+</div>

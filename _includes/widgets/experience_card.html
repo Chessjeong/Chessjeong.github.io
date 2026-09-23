@@ -1,0 +1,24 @@
+<section id="background" class="card border-0 shadow-sm bg-white mt-3" aria-label="Academic and professional background">
+  <div class="card-body p-4 p-lg-5">
+    <div class="row background-grid">
+      {% for category in site.data.background_sections %}
+      {% assign items = site.data.profile[category.key] %}
+      {% if items.size > 0 %}
+      <div class="col-lg-6 background-section">
+        <h2 class="h6 mb-3">{{ category.title }}</h2>
+        <ul class="list-unstyled mb-0">
+          {% for item in items %}
+          <li class="background-item">
+            <div class="font-weight-bold">{% if item.url %}<a class="text-body" href="{{ item.url }}">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}</div>
+            {% if item.position %}<div class="small mt-1">{{ item.position }}</div>{% endif %}
+            {% if item.detail %}<div class="small text-muted mt-1">{{ item.detail }}</div>{% endif %}
+            {% if item.date %}<div class="small text-muted mt-1"><em>{{ item.date }}</em></div>{% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>

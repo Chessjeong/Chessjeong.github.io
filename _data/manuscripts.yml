@@ -1,0 +1,15 @@
+# Status and author initials are transcribed from the supplied CV.
+# These are submissions, not accepted conference publications.
+- title: "Beyond Homophily: Relation-wise Predictive Informativeness for Heterogeneous Graph Message Passing"
+  authors: [J. Lee, D. Choi, M. Jeong, J. Yoo]
+  status: Under review at CIKM 2026
+  abstract: >-
+    Introduces Relation-wise Predictive Informativeness (RPI), an information-theoretic metric
+    for heterogeneous graphs, and HCSBM, a synthetic graph generator with controllable
+    relation-level informativeness.
+- title: "Unlocking Self-Distillation in Heterogeneous Graphs via Relation-Aware Anchor Teachers"
+  authors: [J. Lee, D. Choi, M. Jeong, J. Yoo]
+  status: Under review at AAAI 2027
+  abstract: >-
+    Studies self-distillation for heterogeneous graphs using teacher signals that preserve
+    relation-specific semantic contexts, without negative sampling or reconstruction objectives.

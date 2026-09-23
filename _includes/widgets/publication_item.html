@@ -1,0 +1,12 @@
+{% assign item = include.item %}
+<article class="publication-item p-4 {% unless include.hide_bottom_border %}border-bottom{% endunless %}">
+  <div class="publication-venue mb-2">{{ item.pub }}{% if item.pub_date %} · {{ item.pub_date }}{% endif %}</div>
+  <h3 class="h5 mb-2">{{ item.title }}</h3>
+  <p class="small mb-2">{% include widgets/author_list.html authors=item.authors %}</p>
+  <p class="small text-muted mb-2">{{ item.abstract }}</p>
+  {% if item.links.size > 0 %}<div class="project-links">
+    {% for link in item.links %}
+    <a href="{% if link[1].url %}{{ link[1].url }}{% else %}{{ link[1] }}{% endif %}">{{ link[0] }} <span aria-hidden="true">↗</span></a>
+    {% endfor %}
+  </div>{% endif %}
+</article>

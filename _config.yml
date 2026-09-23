@@ -1,0 +1,25 @@
+title: Minho Jeong
+description: "Minho Jeong — Founding Research Scientist at Nums AI and integrated M.S.–Ph.D. student at Seoul National University. Foundation models for tables and graphs."
+url: "https://chessjeong.github.io"
+baseurl: ""
+lang: en
+timezone: Asia/Seoul
+markdown: kramdown
+plugins:
+  - jekyll-email-protect
+collections:
+  - publications
+  - news
+  - showcase
+  - posts
+exclude:
+  - README.md
+  - docs
+  - scripts
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - index_layout2.html
+  - blog.html
+  - showcase.html

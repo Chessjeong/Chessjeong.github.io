@@ -1,0 +1,15 @@
+{% if site.data.manuscripts.size > 0 %}
+<section class="card border-0 shadow-sm bg-white mt-4" aria-labelledby="manuscripts-heading">
+  <div class="card-body p-4 p-lg-5">
+    <h2 class="h4 mb-4" id="manuscripts-heading">Manuscripts under Review</h2>
+    {% for paper in site.data.manuscripts %}
+    <article {% unless forloop.last %}class="border-bottom pb-4 mb-4"{% endunless %}>
+      <p class="small manuscript-status mb-2">{{ paper.status }}</p>
+      <h3 class="h5 mb-2">{{ paper.title }}</h3>
+      <p class="small mb-2">{% include widgets/author_list.html authors=paper.authors %}</p>
+      <p class="small text-muted mb-0">{{ paper.abstract }}</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
