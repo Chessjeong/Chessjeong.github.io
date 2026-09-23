@@ -19,6 +19,7 @@ bundle exec jekyll serve --host 127.0.0.1 --port 4000 --livereload
 | 내용 | 파일 |
 | --- | --- |
 | 소개, 연락처, 사진, 학력, 경력, 교육, 수상 | `_data/profile.yml` |
+| 학력·경력 섹션 순서 및 강조 여부 | `_data/background_sections.yml` |
 | 출판된 논문 및 공개 프리프린트 | `_publications/2026/` |
 | 프로젝트 | `_data/projects.yml` |
 | 상단 메뉴 | `_data/navigation.yml` |
@@ -27,6 +28,8 @@ bundle exec jekyll serve --host 127.0.0.1 --port 4000 --livereload
 | 도메인과 경로 | `_config.yml` |
 
 논문을 추가하려면 `_publications/2026/2026-causilo.md` 형식으로 Markdown 파일을 만들면 됩니다. `selected: true`인 논문은 첫 화면에도 나타납니다. 저자 이름이 `Minho Jeong` 또는 `M. Jeong`이면 자동으로 강조합니다. 공동 기여 저자 이름 뒤에 `*`를 붙이면 별표와 equal contribution 안내가 표시됩니다.
+
+학력·경력 섹션의 `featured: true` 항목은 Publications 위에 큰 독립 카드로 표시합니다. `featured: false` 항목은 Projects 아래의 간결한 카드에 모아 표시합니다. 각 그룹 안의 순서는 `_data/background_sections.yml`의 순서를 따릅니다.
 
 본문과 서지정보의 출처 및 편집 기준은 `docs/content-sources.md`에 기록했습니다. 이 문서는 웹사이트에 포함되지 않습니다. 템플릿 예시 논문·뉴스·블로그·쇼케이스 콘텐츠는 제거했습니다.
 

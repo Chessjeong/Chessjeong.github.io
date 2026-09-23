@@ -1,0 +1,21 @@
+{% assign category = include.category %}
+{% assign items = site.data.profile[category.key] %}
+{% if items.size > 0 %}
+<section id="{{ category.key }}" class="card border-0 shadow-sm bg-white mt-3" aria-labelledby="{{ category.key }}-heading">
+  <div class="card-body p-4 p-lg-5">
+    <h2 class="h4 mb-4" id="{{ category.key }}-heading">{{ category.title }}</h2>
+    <ul class="list-unstyled mb-0">
+      {% for item in items %}
+      <li {% unless forloop.last %}class="border-bottom pb-4 mb-4"{% endunless %}>
+        <div class="d-flex flex-column flex-lg-row justify-content-lg-between align-items-lg-baseline mb-2">
+          <h3 class="h5 mb-1">{% if item.url %}<a class="text-body" href="{{ item.url }}">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}</h3>
+          {% if item.date %}<span class="small text-muted ml-lg-4 no-break"><em>{{ item.date }}</em></span>{% endif %}
+        </div>
+        {% if item.position %}<p class="mb-1">{{ item.position }}</p>{% endif %}
+        {% if item.detail %}<p class="small text-muted mb-0">{{ item.detail }}</p>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+{% endif %}

@@ -1,8 +1,12 @@
-- key: experience
-  title: Industry Experience
 - key: education
   title: Education
+  featured: true
+- key: experience
+  title: Industry Experience
+  featured: true
 - key: teaching
   title: Teaching
+  featured: false
 - key: awards
   title: Honors
+  featured: false
