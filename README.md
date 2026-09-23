@@ -20,14 +20,13 @@ bundle exec jekyll serve --host 127.0.0.1 --port 4000 --livereload
 | --- | --- |
 | 소개, 연락처, 사진, 학력, 경력, 교육, 수상 | `_data/profile.yml` |
 | 출판된 논문 및 공개 프리프린트 | `_publications/2026/` |
-| 심사 중 원고 | `_data/manuscripts.yml` |
 | 프로젝트 | `_data/projects.yml` |
 | 상단 메뉴 | `_data/navigation.yml` |
 | CV PDF | `assets/files/minho-jeong-cv.pdf` |
 | 추가 스타일 | `assets/css/custom.css` |
 | 도메인과 경로 | `_config.yml` |
 
-논문을 추가하려면 `_publications/2026/2026-causilo.md` 형식으로 Markdown 파일을 만들면 됩니다. `selected: true`인 논문은 첫 화면에도 나타납니다. 저자 이름이 `Minho Jeong` 또는 `M. Jeong`이면 자동으로 강조합니다. 심사 중 원고는 별도 섹션에 표시합니다.
+논문을 추가하려면 `_publications/2026/2026-causilo.md` 형식으로 Markdown 파일을 만들면 됩니다. `selected: true`인 논문은 첫 화면에도 나타납니다. 저자 이름이 `Minho Jeong` 또는 `M. Jeong`이면 자동으로 강조합니다. 공동 기여 저자 이름 뒤에 `*`를 붙이면 별표와 equal contribution 안내가 표시됩니다.
 
 본문과 서지정보의 출처 및 편집 기준은 `docs/content-sources.md`에 기록했습니다. 이 문서는 웹사이트에 포함되지 않습니다. 템플릿 예시 논문·뉴스·블로그·쇼케이스 콘텐츠는 제거했습니다.
 

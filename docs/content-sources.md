@@ -2,7 +2,7 @@
 
 Prepared on September 24, 2026. This file is excluded from the generated website.
 
-- The user-provided `CV (5).pdf` is the source for the biography, education, industry and research experience, teaching, honors, professional email addresses, and two manuscripts under review. Its bytes are preserved in `assets/files/minho-jeong-cv.pdf`.
+- The user-provided `CV (5).pdf` is the initial source for the biography, education, industry experience, teaching, honors, and professional email addresses. Subsequent direct user edits take precedence. Its bytes are preserved in `assets/files/minho-jeong-cv.pdf`.
 - [GitHub profile](https://github.com/Chessjeong): name, portrait, location, GitHub and LinkedIn profiles, and the pinned Causilo project.
 - [Google Scholar](https://scholar.google.com/citations?user=d0IeCM4AAAAJ): the user supplied the profile URL. Automated access failed; no citation counts or extra publications were inferred from it.
 - [View Space on arXiv](https://arxiv.org/abs/2512.11561): canonical title, full author names, paper URL, and ICML 2026 acceptance. Also corroborated by [the official repository](https://github.com/dooho00/graph-view-space) and [Jaemin Yoo's homepage](https://jaeminyoo.github.io/).
@@ -12,7 +12,9 @@ Prepared on September 24, 2026. This file is excluded from the generated website
 Editorial decisions:
 
 - Use the CV's more specific “Integrated M.S.–Ph.D.” degree description rather than the shorter “M.S. Student” on GitHub.
-- Preserve the CV's “under review” status and author initials for the two unpublished manuscripts. Do not present either venue as an acceptance.
+- The user requested removal of manuscripts under review and the Research Experience section from the website, and removal of the detailed Teaching description.
+- The user supplied the revised biography and Nums AI description, “Co-creator of Causilo, Frontier Tabular Foundation Model.” The incomplete trailing phrase “, and a.” in the supplied biography was treated as a typo and omitted.
+- All five Causilo authors are marked with equal-contribution asterisks at the user's request. The redundant PDF link was removed; the Paper link leads to arXiv.
 - The 2026-01-01 date in the View Space record is a sorting key for its conference year, not an asserted publication day. The rendered website displays only 2026.
 - Omit GPA and programming-language lists from the main page for readability; they remain in the CV.
 - Keep the SK hynix scholarship description as an offer, not a received scholarship.
