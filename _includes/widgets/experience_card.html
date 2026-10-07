@@ -11,6 +11,13 @@
           {% for item in items %}
           <li class="background-item">
             <div class="font-weight-bold">{% if item.url %}<a class="text-body" href="{{ item.url }}">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}</div>
+            {% if item.conferences %}
+            <ul class="list-unstyled small mt-1 mb-0">
+              {% for conference in item.conferences %}
+              <li>{{ conference.name }}: {{ conference.years | join: ', ' }}</li>
+              {% endfor %}
+            </ul>
+            {% endif %}
             {% if item.position %}<div class="small mt-1">{{ item.position }}</div>{% endif %}
             {% if item.detail %}<div class="small text-muted mt-1">{{ item.detail }}</div>{% endif %}
             {% if item.date %}<div class="small text-muted mt-1"><em>{{ item.date }}</em></div>{% endif %}

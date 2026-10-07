@@ -11,6 +11,13 @@
           <h3 class="h5 mb-1">{% if item.url %}<a class="text-body" href="{{ item.url }}">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}</h3>
           {% if item.date %}<span class="small text-muted ml-lg-4 no-break"><em>{{ item.date }}</em></span>{% endif %}
         </div>
+        {% if item.conferences %}
+        <ul class="list-unstyled small mt-1 mb-0">
+          {% for conference in item.conferences %}
+          <li>{{ conference.name }}: {{ conference.years | join: ', ' }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
         {% if item.position %}<p class="mb-1">{{ item.position }}</p>{% endif %}
         {% if item.detail %}<p class="small text-muted mb-0">{{ item.detail }}</p>{% endif %}
       </li>

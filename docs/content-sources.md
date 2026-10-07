@@ -20,6 +20,7 @@ Editorial decisions:
 - The 2026-01-01 date in the View Space record is a sorting key for its conference year, not an asserted publication day. The rendered website displays only 2026.
 - Show the CV's graduation GPA, “GPA: 3.72/4.3,” before “Cum Laude” in the KAIST education entry at the user's request. Programming-language lists remain in the CV.
 - Keep the SK hynix scholarship description as an offer, not a received scholarship.
+- The user confirmed participation as an ICLR 2027 reviewer on October 7, 2026. Under the “Professional Service” heading, show “Reviewer” followed by each conference as “Conference: year1, year2,” with years stored per conference for future additions.
 - Deployment targets the user-provided existing repository `Chessjeong/Chessjeong.github.io`, as explicitly requested after the local preview review. The initial repository commit is preserved.
 
 Template: [luost26/academic-homepage](https://github.com/luost26/academic-homepage), upstream commit `7bd10b6`. Original MIT license and footer attribution retained.

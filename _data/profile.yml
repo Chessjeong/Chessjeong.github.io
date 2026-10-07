@@ -51,6 +51,11 @@ teaching:
   - name: Introduction to Data Mining
     position: Teaching Assistant · Seoul National University
     date: Spring 2026
+service:
+  - name: Reviewer
+    conferences:
+      - name: ICLR
+        years: [2027]
 awards:
   - name: KAIST Undergraduate Research Program Grant
     detail: KRW 5,000,000 in competitively awarded research funding.

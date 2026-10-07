@@ -7,6 +7,9 @@
 - key: teaching
   title: Teaching
   featured: false
+- key: service
+  title: Professional Service
+  featured: false
 - key: awards
   title: Honors
   featured: false
